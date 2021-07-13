@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Vaccine</title>
+    <!--Ion Icon-->
+   <link href="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js" rel="stylesheet">
+    <link rel="stylesheet" href="aftervaccine.css">
+    
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <li><a href="home.html"><b>Home</b></a></li>
+            <li><a href="about.html"><b>FAQs</b></a></li>
+            <li><a href="services.html"><b>Important Information</b></a></li>
+            <li><a href="contact.html"><b>Helpline Number</b></a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+    </nav>
+
+    <div class="subheading">
+        <ul class="head">
+            <li><h2><b>WHAT TO EXCEPT AFTER VACCINATION</b></h2></li>
+        </ul>
+    </div>
+    <div class="back">
+        <button class="accordion">How long I will remain protected after vaccination?</button>
+        <div class="panel">
+            <p>Longevity of the immune response in vaccinated individuals is yet to be determined. Hence, continuing the use of masks, handwashing, physical distancing and other COVID-19 appropriate behaviours is strongly recommended.</p>
+        </div>
+        <button class="accordion">What precautions I need to take after receiving the vaccine?</button>
+        <div class="panel">
+            <p>Both the vaccines are safe but in case of any discomfort or complaint, ask the beneficiary to visit the nearest health facility and/or call the health worker whose phone number is given in the Co-WIN SMS received after vaccination.</p>
+        </div>
+        <button class="accordion">Is it important for me to receive the same vaccine during second dose?</button>
+        <div class="panel">
+            <p>As the vaccines available are not interchangeable, it is important to receive the second dose of same vaccine as the first one. The Co-WIN portal is also going to help to ensure that everyone receives the same vaccine.</p>
+        </div>
+        <button class="accordion">Does this vaccine provide herd immunity?</button>
+        <div class="panel">
+            <p>When an increasing number of people get vaccinated in the community, indirect protection through herd immunity develops. The percentage of people who need to be immune in order to achieve herd immunity varies with each disease. For example, its 95% for measles, however the proportion of the population that must be vaccinated against COVID-19 to begin inducing herd immunity is not known.</p>
+        </div>
+        <button class="accordion">Does vaccination protect me against newer strains / mutated virus of SARS-CoV 2?</button>
+        <div class="panel">
+            <p>The body responds to vaccination by making more than one type of antibodies to virus parts including spike protein. Therefore, all vaccines are expected to provide reasonable amount of protection against the mutated virus also. Based on the available data the mutations as reported are unlikely to make the vaccine ineffective.</p>
+        </div>
+    </div>
+
+	<script type="text/javascript">
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight){
+		      panel.style.maxHeight = null;
+		    } else {
+		      panel.style.maxHeight = panel.scrollHeight + "px";
+		    } 
+		  });
+		}
+</script>
+
+    
+   
+
+
+
+    
+</body>
+</html>

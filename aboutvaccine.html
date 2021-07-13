@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Vaccine</title>
+    <!--Ion Icon-->
+   <link href="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js" rel="stylesheet">
+    <link rel="stylesheet" href="aboutvaccine.css">
+    
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <li><a href="home.html"><b>Home</b></a></li>
+            <li><a href="about.html"><b>FAQs</b></a></li>
+            <li><a href="services.html"><b>Important Information</b></a></li>
+            <li><a href="contact.html"><b>Helpline Number</b></a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+    </nav>
+
+    <div class="subheading">
+        <ul class="head">
+            <li><h2><b> ABOUT THE VACCINE</b></h2></li>
+        </ul>
+    </div>
+    <div class="back">
+        <button class="accordion">Which COVID-19 vaccines are licensed in India?</button>
+        <div class="panel">
+            <p>Two vaccines were granted emergency use authorization by the Central Drugs Standard Control Organization (CDSCO) in India, Covishield® (AstraZeneca's vaccine manufactured by Serum Institute of India) and Covaxin® (manufactured by Bharat Biotech Limited). Sputnik - V has been granted EUA in the month of April 2021.</p>
+        </div>
+        <button class="accordion">Do I have a choice of vaccine I will receive?</button>
+        <div class="panel">
+            <p>The vaccine will be supplied to various parts of India as per availability and distribution plan, beneficiaries load and so at present the option of choice of vaccine is not available.</p>
+        </div>
+        <button class="accordion">Is a COVID-19 vaccine scheduled anytime soon for me?</button>
+        <div class="panel">
+            <p>The COVID-19 vaccine was launched on 16th January, 2021. The first group includes healthcare and frontline workers. The second group to receive COVID-19 vaccine were people over 60 years of age as of January 1st, 2021 and people between 45 and 59 years with comorbid conditions. This group started receiving vaccinations from March 1st, 2021. From April 1st, 2021, people above the age of 45 years (born before 1st Jan, 1977) were eligible to get the COVID-19 vaccine. From May 1st, 2021, all eligible citizens above the age of 18 years can get the COVID-19 vaccine.</p>
+        </div>
+        <button class="accordion">What is the dose schedule of both the vaccines?</button>
+        <div class="panel">
+            <p>The time interval between two doses of the Covishield vaccine has been extended from four-eight weeks to 12-16 weeks. The second dose of Covaxin can be taken four to six weeks after the first.</p>
+        </div>
+        <button class="accordion">What is Phase I, II and III of clinical trial for a vaccine?</button>
+        <div class="panel">
+            <p>Vaccine trial phases includes:-
+
+                i) Pre-clinical: Vaccine development in laboratory animals
+                ii) Phase 1 Clinical trial (small number of participants): Assess vaccine safety, immune response and determine right dosage (short duration)
+                iii) Phase 2 Clinical trial (few hundred participants): Assess safety and the ability of the vaccine to generate an immune response (short duration)
+                iv) Phase 3 Clinical trial (thousands of participants): Determine vaccine effectiveness against the disease and safety in a larger group of people (duration 1-2 years)</p>
+        </div>
+    </div>
+
+	<script type="text/javascript">
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight){
+		      panel.style.maxHeight = null;
+		    } else {
+		      panel.style.maxHeight = panel.scrollHeight + "px";
+		    } 
+		  });
+		}
+</script>
+</body>
+</html>

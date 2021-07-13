@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color:rgb(217, 217, 217);
+}
+
+.logo{
+    width:20%;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: flex-start;
+   
+}
+.downsection{
+    background-color: #d9d9d9 ;
+    /* border: 2px solid green; */
+}
+.covidimg{
+    /* border: 2px solid grey; */
+    padding-left: 360px;
+    margin-top: 5px;
+}
+
+.logo img{
+    width: 43%;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.nav-list{
+    width: 50%;
+    /*background-color: skyblue;*/
+    display:flex;
+    
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 20px;
+   
+
+}
+
+.nav-list li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+.nav-list li a:hover{
+    color:rgb(104, 102, 102);
+}
+.rightNav{
+   
+    width: 45%;
+    padding-top: 15px;
+    text-align: right;
+    /* border:2px solid red; */
+ 
+ 
+ }
+ 
+ #search{
+     padding: 5px;
+     font-size: 17px;
+     border: 2px solid grey;
+     border-radius: 9px ;
+     /* background: none; */
+     
+     
+ }
+ .btn{
+     padding: 4px 15px;
+     margin: 7px 0;
+     font-size: 15px;
+     border: 2px solid grey;
+     border-radius: 10px;
+     background:none;
+     cursor:pointer;
+ }
+ .section{
+     display:flex;
+     /* background-color: rgb(104, 102, 102); */
+     /* border: 2px solid red; */
+ }
+ .head-list{
+     display: flex;
+     /* border:2px solid blue; */
+     background-color: rgb(166, 162, 162);
+     padding-left:155px;
+     width: 100%;
+     
+ }
+ .head-list li{
+     list-style: none;
+     padding-left: 25px;
+     padding-top: 6px;;
+ }
+
+ 
+
+ 
+ .sidelogo img{
+    width:40px;
+    height: 30px;
+ }
+ .sidelogo{
+    padding-left: 9px;
+    padding-top: 2px;
+ }
+ .download{
+     padding-left: 280px;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ .detailcovid{
+     border: 2px solid rgb(128, 127, 127);
+     border-radius: 5px;
+     margin-top: 15px;
+     margin-left: 560px;
+     padding: 6px;
+     background-color: rgb(165, 238, 228);
+     box-shadow: 2px 3px 4px rgb(128, 127, 127);
+     cursor:pointer;
+
+ }
+.detailcovid:hover{
+    background-color: #d9d9d9;
+    border: 2px solid #d9d9d9;
+} 
+
+ 
