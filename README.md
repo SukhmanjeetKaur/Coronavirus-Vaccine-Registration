@@ -35,4 +35,7 @@ Home Page
 
 ![covid project](https://user-images.githubusercontent.com/87376487/127755429-051f601d-1dec-437e-9f90-26149ef47c10.png)
 ![covid project](https://user-images.githubusercontent.com/87376487/127755464-44dc4c15-7f88-448b-8e7c-9afdceaffcbd.png)
+![covid project](https://user-images.githubusercontent.com/87376487/127755505-3680d619-d7a4-4a49-872c-d086f8505417.png)
+![covid project](https://user-images.githubusercontent.com/87376487/127755634-dea6c38c-c34c-4519-b196-e14deed7d3c0.png)
+![covid project](https://user-images.githubusercontent.com/87376487/127755672-987ea585-a017-4ce3-8244-7d007f87f271.png)
 
