@@ -29,4 +29,10 @@ Operating System	- Windows 10
 Front-end - HTML, CSS, Javascript
 Back-end - PHP and Mysql
 
+Output Screenshots 
+
+Home Page 
+
+![covid project](https://user-images.githubusercontent.com/87376487/127755429-051f601d-1dec-437e-9f90-26149ef47c10.png)
+
 
