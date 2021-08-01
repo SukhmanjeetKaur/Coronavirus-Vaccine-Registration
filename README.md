@@ -34,5 +34,5 @@ Output Screenshots
 Home Page 
 
 ![covid project](https://user-images.githubusercontent.com/87376487/127755429-051f601d-1dec-437e-9f90-26149ef47c10.png)
-
+![covid project](https://user-images.githubusercontent.com/87376487/127755464-44dc4c15-7f88-448b-8e7c-9afdceaffcbd.png)
 
