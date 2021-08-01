@@ -108,6 +108,30 @@ The form is developed in HTML and CSS but the connection to the database is deve
 
 ![reg](https://user-images.githubusercontent.com/87376487/127770119-d368153c-8014-4771-ad40-a78e55b85458.png)
 
+Now, I will write my details in the form.
+
+![reg1](https://user-images.githubusercontent.com/87376487/127770349-7c24c408-f307-4331-a2a9-14cce4e8629d.png)
+
+Now when I click on SUBMIT button I will get to see a message - Registration successfully, we will shortly connect with you. Thank you
+
+![reg2](https://user-images.githubusercontent.com/87376487/127770524-720cae97-ea4e-4ab6-a8b6-1591fc0c3f09.png)
+
+We have register successfully, Now let's check the Database. 
+
+![xampp](https://user-images.githubusercontent.com/87376487/127770683-9e1e3f4b-bd4c-4c30-a204-ca7b5dabff70.png)
+
+Let's Check our Database 'covidreg' in which I have created table 'registration'. Bravo!, We can see our data is successfully registered in the database. 
+
+![xampp1](https://user-images.githubusercontent.com/87376487/127770859-3aeddaae-f600-474d-8103-8f016a48e512.png)
+
+Finally, I have completed my project with all the executions executed successfully. My project is based on the vaccine registration and the related information. Now one can find each and every information regarding my project on the page and can register oneself for the vaccination. The data will get stored in the database and the authorities will connect to that person shortly. It will save the time of the person and avoid the risk of standing in the queues which is not at all safe in these days.
+So, it’s good to register first then go for the vaccination to avoid the risk and to save the time. Coronavirus has given the set back to the entire world and we need to fight with this virus with our own intelligence, we cannot neglect the factors which will lead to this virus. It’s the time we should show our effects to aware the people how we can start from our own home, from ourself how to make the measures to avoid the factors which lead to the increase of this scary virus. I put my efforts to this project which will be helpful to the people to know what the virus and what precautions do one need to take in order to avoid this pandemic to the extend. 
+
+I hope you will like my project. Thank You! and Stay Safe! :) 
+
+
+
+
 
 
 
